@@ -28,7 +28,7 @@ public class AnalysePubMed {
      * Files voor de in te lezen bestanden.
      */
     public File file1 = new File("C:/Users/Charlotte/Desktop/taxID_to_organism_names.txt"); // Organisme namen en taxid's
-    public File file2 = new File("C:/Users/Charlotte/Desktop/gene2pub.txt"); // Taxid's met pubmedid's en genid's 
+    public File file2 = new File("C:/Users/Charlotte/Desktop/gene2pubmed"); // Taxid's met pubmedid's en genid's 
     public File file3 = new File("C:/Users/Charlotte/Desktop/geninfo.txt"); // File met volledige geninfo 
 
     public HashMap ot = new HashMap<String, Integer>(); // Hashmap met organismenaam als key en taxid als value
